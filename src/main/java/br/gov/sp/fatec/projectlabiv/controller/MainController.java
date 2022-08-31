@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin //Permite que o qualquer front-end de qualquer outro servidor acesse essa rota
 public class MainController {
 	
-	@GetMapping("/hello")
+	@GetMapping
 	public String hello() {
 		return "Hello";
 	}
